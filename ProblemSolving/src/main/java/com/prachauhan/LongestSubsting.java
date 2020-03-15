@@ -11,20 +11,18 @@ import java.util.Collections;
  */
 public class LongestSubsting {
     private static int length;
-    
-    LongestSubsting(String s) {
-        setLength(lengthOfLongestSubstring(s));
+    LongestSubsting() {
     }
     
     public int getLength() {
         return length;
     }
     
-    private void setLength(int length) {
+    private void setLength() {
         this.length = length;
     }
     
-    public static int lengthOfLongestSubstring(String s) {
+    private static int lengthOfLongestSubstring(String s) {
         ArrayList<Character> result = new ArrayList();
         ArrayList<Character> temp = new ArrayList<>(s.length());
         for (int i = 0; i < s.length(); i++) {
@@ -59,5 +57,10 @@ public class LongestSubsting {
             }
         }
         return result.size();
+    }
+    
+    public int getLengthOflongestSubstring(String s){
+        length= lengthOfLongestSubstring(s);
+        return length;
     }
 }
