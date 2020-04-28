@@ -11,11 +11,10 @@ public class LinkedListForTest {
     
     private ListNode createList(ListNode head) {
         ListNode current = head;
-        int[] arr ={3, 4, 3, 2};
+        int[] arr ={4, 5};
         for (int i : arr) {
             current.next=new ListNode(i);
             current=current.next;
-        }
-        return head;
+        }return head;
     }
 }
