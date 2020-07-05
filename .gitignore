@@ -4,6 +4,7 @@
 
 # Gradle #
 # Ignore Gradle project-specific cache directory
+.idea
 .idea/gradle.xml
 .idea/jarRepositories.xml
 .idea/*.xml
