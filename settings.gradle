@@ -9,4 +9,6 @@
 
 rootProject.name = 'BlueWhale'
 include 'ProblemSolving'
-include 'Micro'
+include 'ProblemSolving2'
+include 'DynamicConnectivityProblem'
+
