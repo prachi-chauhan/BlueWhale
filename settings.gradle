@@ -10,7 +10,5 @@
 rootProject.name = 'BlueWhale'
 include 'ProblemSolving'
 include 'ProblemSolving2'
-include 'SpringMVC_beginner'
-
-
+include 'DynamicConnectivityProblem'
 
